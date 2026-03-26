@@ -117,7 +117,7 @@ iframe {
 
 .page-content p,
 .page-content li {
-  font-size: 1.05rem;
+  font-size: 1.1rem;
 }
 
 .page-content h1,
@@ -223,5 +223,6 @@ body.page-games .page-content figure img {
     padding: 1rem;
   }
 }
+
 
 

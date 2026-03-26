@@ -111,9 +111,7 @@ def build_document(site_data: SiteData, page: PageData, page_html: str) -> str:
         f"{page_html}"
         "    </article>\n"
         "  </main>\n"
-        '  <footer class="site-footer">\n'
-        '    <p>Personal website for Michael Shalyt.</p>\n'
-        "  </footer>\n"
+
         "</body>\n"
         "</html>\n"
     )
@@ -205,3 +203,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

@@ -36,17 +36,19 @@ PAGE_DATA = [
         "body_html": r"""
 <h2><strong><span style="text-decoration: underline;">Ramanujan Machine</span></strong></h2>
 
-<p>I currently lead the Ramanujan Machine group under Professor Ido Kaminer, working on the intersection of AI and experimental mathematics. The field is changing very quickly: models, symbolic tools and automated search pipelines now let us explore mathematical spaces that were previously too large to investigate by hand.</p>
+<p>Since 2023 I lead the <a href="https://www.ramanujanmachine.com/">Ramanujan Machine Group</a> at the Technion under Prof. Ido Kaminer, working on the intersection of AI and mathematics. The field is changing very quickly - AI models, symbolic tools (both external and <a href="https://github.com/RamanujanMachine/">our own libraries</a>), vibe coding - and we apply it to explore mathematical spaces and <a href="https://www.pnas.org/doi/10.1073/pnas.2321440121">algorithmically discover</a> new formulas and conjectures.
 
-<p>Our recent work includes the <a href="https://www.ramanujanmachine.com/asymob-algebraic-symbolic-mathematical-operations-benchmark/">ASyMOB</a> benchmark for algebraic symbolic reasoning, the <a href="https://www.ramanujanmachine.com/results/from-euler-to-ai-unifying-formulas-for-mathematical-constants/">From Euler to AI</a> line on unifying formulas for mathematical constants, and the broader <a href="https://www.ramanujanmachine.com/">Ramanujan Machine</a> effort to turn mathematical discovery into a scalable experimental process. Published outputs from this work include <a href="https://arxiv.org/abs/2505.23851">ASyMOB</a>, <a href="https://arxiv.org/abs/2507.08138">From Euler to AI</a>, the <a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/117099">NeurIPS 2025 poster</a>, the <a href="https://neurips.cc/virtual/2024/poster/95491">NeurIPS 2024 poster</a>, and our <a href="https://www.pnas.org/doi/10.1073/pnas.2321440121">PNAS paper</a>.</p>
+I like to describe our work as "doing math like engineers", automating ingenuity.</p>
 
-<p>One example of that direction is the work around conservative matrix fields and automated conjecture generation: combining AI with careful mathematical experimentation to surface structure, cluster families of formulas and suggest new paths for human insight. This short talk gives a quick taste of that line of work:</p>
+<p>Our recent projects include the "ASyMOB" benchmark for algebraic symbolic reasoning (<a href="https://www.ramanujanmachine.com/asymob-algebraic-symbolic-mathematical-operations-benchmark/">blogpost</a>, <a href="https://arxiv.org/abs/2505.23851">paper</a>), "From Euler to AI" (<a href="https://www.ramanujanmachine.com/results/from-euler-to-ai-unifying-formulas-for-mathematical-constants/">blogpost</a>, <a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/117099">paper</a>) - unifying hundreds of formulas for Pi throughout the centuries into a single Conservative Matrix Field (see video below), and <a href="https://neurips.cc/virtual/2024/poster/95491">"Unsupervised Discovery of Formulas for Mathematical Constants"</a> - using dynamic convergence behavior to cluster 1.7 million unknown formulas and discover novel formulas for multiple mathematical constants - which we presented in Vancouver:
+
+<figure class="wp-block-image"><img src="/media/neurips-2024-poster.jpg" alt="Presenting the NeurIPS 2024 poster." /><figcaption>NeurIPS 2024</figcaption></figure>
 
 <div style="text-align:center;">
 <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/Uk04gfIt8yM" title="Conservative matrix fields talk" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 </div>
 
-<figure class="wp-block-image"><img src="/media/neurips-2024-poster.jpg" alt="Presenting the NeurIPS 2024 poster." /><figcaption>Presenting the NeurIPS 2024 poster.</figcaption></figure>
+
 <h2><strong><span style="text-decoration: underline;">Evo.Do</span></strong></h2>
 
 <p>Mid 2018 I left my role as CEO of Aperio Systems to start a new company: Evo.Do. We built autonomous AI-bots that tested and validated games, based on Reinforcement Learning algorithms.&nbsp;</p>
