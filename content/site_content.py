@@ -13,6 +13,11 @@ PAGE_DATA = [
         "slug": 'home',
         "order": 1,
         "body_html": r"""
+<div class="home-hero">
+<img class="home-hero-banner" src="/media/Banner_Window.jpg" alt="Michael Shalyt portrait banner." />
+<img class="home-hero-profile" src="/media/michae_Zoomed_profile.jpg" alt="Michael Shalyt portrait." />
+</div>
+
 <div class="wp-block-group">
 <div class="wp-block-group">
 <p><strong>Welcome!</strong></p>
@@ -47,6 +52,8 @@ I like to describe our work as "doing math like engineers", automating ingenuity
 <div style="text-align:center;">
 <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/Uk04gfIt8yM" title="Conservative matrix fields talk" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 </div>
+
+<p><em>Created for the 3Blue1Brown "Summer of Math Exposition", where we reached the final round.</em></p>
 
 
 <h2><strong><span style="text-decoration: underline;">Evo.Do</span></strong></h2>
