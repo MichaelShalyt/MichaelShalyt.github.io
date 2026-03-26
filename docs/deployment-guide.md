@@ -46,6 +46,7 @@ At the DNS provider:
 python scripts/build_site.py
 python -m unittest discover -s tests -v
 git add .
-git commit -m "Rebuild site from latest WordPress export"
+git commit -m "Update website content"
 git push
 ```
+

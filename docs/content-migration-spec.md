@@ -1,13 +1,16 @@
-﻿# Migration Notes
-
-This migration now uses only the local WordPress export and the provided media library. It does not add inferred content from outside profiles or external public sources.
+﻿# Site Notes
 
 ## Source of truth
 
-- [Original Website Content/michaelshalyt.WordPress.2026-03-26.xml](D:/Codex%20Projects/Shalyt%20Website%20Migration/Original%20Website%20Content/michaelshalyt.WordPress.2026-03-26.xml)
-- [Original Website Content/Media Library](D:/Codex%20Projects/Shalyt%20Website%20Migration/Original%20Website%20Content/Media%20Library)
+The website source lives in [content/site_content.py](D:/Codex%20Projects/Shalyt%20Website%20Migration/content/site_content.py).
 
-## Published pages detected in the export
+It contains:
+
+1. The published page order.
+2. The page slugs.
+3. The page HTML bodies used by the static generator.
+
+## Published pages
 
 1. Home
 2. AI
@@ -16,10 +19,6 @@ This migration now uses only the local WordPress export and the provided media l
 5. Games
 6. Ideas
 
-## Static-hosting transformations
+## Local media policy
 
-1. The page text, headings, links, and exported HTML are preserved.
-2. WordPress block comments are removed because they are editor metadata, not page content.
-3. `shalyt.com` internal links are rewritten to local static routes.
-4. Upload URLs are rewritten to the copied local [media](D:/Codex%20Projects/Shalyt%20Website%20Migration/media) folder.
-5. WordPress embed shortcodes are replaced with static equivalents that GitHub Pages can serve.
+Only media files that are directly referenced by the published pages are kept in [media](D:/Codex%20Projects/Shalyt%20Website%20Migration/media).
