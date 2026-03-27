@@ -29,7 +29,7 @@ PAGE_DATA = [
 </div>
 </div>
 
-<div class="pdf-embed"><iframe src="/media/MichaelShalyt_2025_anon.pdf#toolbar=0&navpanes=0&view=FitH" title="Michael Shalyt CV PDF"></iframe><p class="pdf-fallback"><a href="/media/MichaelShalyt_2025_anon.pdf">Open the PDF in a new tab</a></p></div>
+<div class="pdf-embed"><iframe src="/media/MichaelShalyt_2025_anon.pdf#toolbar=0&navpanes=0&view=FitH" title="Michael Shalyt CV PDF"></iframe></div>
 
 """,
     },
@@ -144,9 +144,7 @@ I like to describe our work as "doing math like engineers", automating ingenuity
 
 <p>One of the problems we tackled in my team at Check Point was the rise of cryptoviruses, a certain category of ransomware that encrypts all your personal files once it infects the computer – then demands you pay ransom to the criminals in exchange for the decryption key. One such cryptovirus was Dircrypt. We reverse engineered the malware and found its encryption implementation to contain mistakes – mistakes which allowed us to save most of the personal data of a victim without paying any ransom. We published the findings on Check Point’s website (full article available <a href="https://www.checkpoint.com/download/public-files/TCC_WP_Hacking_The_Hacker.pdf">here</a>), and got some traction in the media (for example, <a href="http://tech.wp.pl/kat,1009779,title,Zhakowali-hakerow-Bedzie-mozna-odzyskac-zaszyfrowane-dane,wid,16919004,wiadomosc.html">here</a> and <a href="http://www.itnews.sk/spravy/bezpecnost/2014-09-29/c165236-vydieracsky-ransomware-dircrypt-sifrujuci-subory-bol-prelomeny">here</a>). We also gave a talk to the general Check Point audience – explaining the research story: </p>
 
-<div style="text-align:center;">
-<p class="external-embed"><a href="https://www.slideshare.net/Shalyt/how-and-why-we-defeated-the-dircrypt-ransomware">https://www.slideshare.net/Shalyt/how-and-why-we-defeated-the-dircrypt-ransomware</a></p>
-</div>
+<div class="slideshare-embed"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/mk3qPT20ajXk0s" title="How and why we defeated the DirCrypt ransomware" loading="lazy" allowfullscreen></iframe><p class="embed-credit"><strong><a href="https://www.slideshare.net/slideshow/how-and-why-we-defeated-the-dircrypt-ransomware/47330035" target="_blank" rel="noreferrer">how-and-why-we-defeated-the-dircrypt-ransomware</a></strong> from <strong><a href="https://www.slideshare.net/Shalyt" target="_blank" rel="noreferrer">Michael Shalyt</a></strong></p></div>
 
 <h4><strong><span style="text-decoration: underline;">“Volatile Ceder”</span></strong></h4>
 

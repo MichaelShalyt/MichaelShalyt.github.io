@@ -210,6 +210,25 @@ body.page-home .page-content {
   border: 0;
 }
 
+.slideshare-embed {
+  max-width: 860px;
+  margin: 1.5rem auto;
+}
+
+.slideshare-embed iframe {
+  width: 100%;
+  aspect-ratio: 1.214 / 1;
+  border: 1px solid #cfcfcf;
+}
+
+.embed-credit {
+  max-width: 860px;
+  margin: 0.55rem auto 0;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
 .pdf-embed {
   margin: 1.5rem 0;
 }
@@ -223,18 +242,14 @@ body.page-home .page-content {
   border: 1px solid var(--surface-border);
 }
 
-.pdf-fallback {
-  margin-top: 0.65rem;
-  text-align: center;
-  font-size: 0.96rem;
-}
-
+.page-content figcaption,
 .video-caption {
   max-width: 860px;
   margin: 0.55rem auto 0;
-  color: var(--muted);
-  font-size: 0.96rem;
-  line-height: 1.5;
+  color: var(--text);
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.45;
 }
 
 .external-embed {
