@@ -101,8 +101,11 @@ def build_document(site_data: SiteData, page: PageData, page_html: str) -> str:
         '  <a class="skip-link" href="#content">Skip to content</a>\n'
         '  <header class="site-header">\n'
         '    <div class="site-brand">\n'
-        f'      <a href="/">{html.escape(site_data.title)}</a>\n'
-        f'      <p>{html.escape(site_data.description)}</p>\n'
+        '      <img class="site-brand-photo" src="/media/michae_Zoomed_profile.jpg" alt="Michael Shalyt" />\n'
+        '      <div class="site-brand-copy">\n'
+        f'        <a href="/">{html.escape(site_data.title)}</a>\n'
+        f'        <p>{html.escape(site_data.description)}</p>\n'
+        "      </div>\n"
         "    </div>\n"
         f"    {render_navigation(site_data.pages, page.slug)}\n"
         "  </header>\n"

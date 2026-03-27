@@ -15,7 +15,6 @@ PAGE_DATA = [
         "body_html": r"""
 <div class="home-hero">
 <img class="home-hero-banner" src="/media/Banner_Window.jpg" alt="Michael Shalyt portrait banner." />
-<img class="home-hero-profile" src="/media/michae_Zoomed_profile.jpg" alt="Michael Shalyt portrait." />
 </div>
 
 <div class="wp-block-group">
@@ -30,7 +29,7 @@ PAGE_DATA = [
 </div>
 </div>
 
-<div class="pdf-embed"><object data="/media/MichaelShalyt_2025_anon.pdf" type="application/pdf"><p><a href="/media/MichaelShalyt_2025_anon.pdf">Open the PDF document</a></p></object></div>
+<div class="pdf-embed"><iframe src="/media/MichaelShalyt_2025_anon.pdf#toolbar=0&navpanes=0&view=FitH" title="Michael Shalyt CV PDF"></iframe><p class="pdf-fallback"><a href="/media/MichaelShalyt_2025_anon.pdf">Open the PDF in a new tab</a></p></div>
 
 """,
     },
@@ -53,7 +52,7 @@ I like to describe our work as "doing math like engineers", automating ingenuity
 <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/Uk04gfIt8yM" title="Conservative matrix fields talk" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 </div>
 
-<p><em>Created for the 3Blue1Brown "Summer of Math Exposition", where we reached the final round.</em></p>
+<p class="video-caption">Created for the 3Blue1Brown "Summer of Math Exposition", where we reached the final round.</p>
 
 
 <h2><strong><span style="text-decoration: underline;">Evo.Do</span></strong></h2>
