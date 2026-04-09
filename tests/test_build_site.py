@@ -30,9 +30,10 @@ class BuildSiteTests(unittest.TestCase):
         """Rendered pages should expose a page-specific body class for styling hooks."""
 
         page = build_site.PageData(title="Games", slug="games", order=5, body_html="<p>Body</p>\n")
-        site_data = build_site.SiteData(title="Michael Shalyt", description="Thinker, Hacker, Maker.", pages=[page])
+        site_data = build_site.SiteData(title="Michael Shalyt", description="Yesterday You Said Tomorrow.", pages=[page])
         document = build_site.build_document(site_data, page, page.body_html)
         self.assertIn('<body class="page-games">', document)
+        self.assertIn("Yesterday You Said Tomorrow.", document)
 
     def test_build_outputs_expected_pages(self) -> None:
         """The generator should write the expected static pages and route aliases."""

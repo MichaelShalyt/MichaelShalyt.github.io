@@ -4,7 +4,7 @@
 SITE_TITLE = "Michael Shalyt"
 
 # SITE_DESCRIPTION stores the short tagline reused in metadata and navigation chrome.
-SITE_DESCRIPTION = "Thinker, Hacker, Maker."
+SITE_DESCRIPTION = "Yesterday You Said Tomorrow."
 
 # PAGE_DATA stores the page order, routes, and HTML bodies for the published site.
 PAGE_DATA = [
