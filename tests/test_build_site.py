@@ -26,6 +26,19 @@ class BuildSiteTests(unittest.TestCase):
         self.assertIn("Uk04gfIt8yM", ai_page.body_html)
         self.assertIn("neurips-2024-poster.jpg", ai_page.body_html)
 
+    def test_home_page_embeds_current_cv(self) -> None:
+        """The home page should embed the current CV PDF from published media."""
+
+        # site_data stores the shared metadata and page list loaded from content.
+        site_data = build_site.load_site_data()
+        # home_page stores the source HTML for the root landing page.
+        home_page = next(page for page in site_data.pages if page.slug == "home")
+        # current_cv_path stores the published PDF path served by GitHub Pages.
+        current_cv_path = build_site.ROOT_DIRECTORY / "media" / "MichaelShalyt_2026.pdf"
+        self.assertIn("/media/MichaelShalyt_2026.pdf", home_page.body_html)
+        self.assertNotIn("/media/MichaelShalyt_2025_anon.pdf", home_page.body_html)
+        self.assertTrue(current_cv_path.exists())
+
     def test_build_document_sets_page_specific_body_class(self) -> None:
         """Rendered pages should expose a page-specific body class for styling hooks."""
 
